@@ -10,6 +10,7 @@ export class UsersService {
         return 'say hello post'
     }
     async createUser(user: UsersDTO): Promise<string> {
+        console.log(typeof user.age)
         return `create success ! ${user.username}`
     }
 }
