@@ -10,7 +10,8 @@ import { PostsModule } from "src/posts/posts.module"
     providers: [{
         provide: "CLASS_CUSTOM",
         useClass: UsersService
-    }]
+    }],
+    exports: [UsersService]
 })
 
 export class UsersModule {}
