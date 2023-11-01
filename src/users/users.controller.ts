@@ -1,7 +1,7 @@
 import { Controller, Get, Param, ParseIntPipe, UsePipes, ValidationPipe, Post, Body, Inject } from '@nestjs/common'
 import { UsersService } from './user.service'
-import { UsersDTO } from './users.dto'
 import { PostsService } from 'src/posts/posts.service'
+import { UsersDTO } from './users.dto'
 
 @UsePipes(new ValidationPipe({
   transform: true,
