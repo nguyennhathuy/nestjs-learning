@@ -11,4 +11,5 @@ export class UsersDTO {
     @IsNotEmpty()
     @IsString()
     city: string
+    
 }
