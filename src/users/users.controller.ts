@@ -28,6 +28,5 @@ export class UsersController {
   async createUser(@Body() user: UsersDTO): Promise<string> {
     return this.classCustom.createUser(user)
   }
-  
 }
  
