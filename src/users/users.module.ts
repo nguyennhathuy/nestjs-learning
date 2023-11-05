@@ -14,5 +14,4 @@ import { PostsModule } from "src/posts/posts.module"
     exports: [UsersService]
 })
 
-
 export class UsersModule {}
